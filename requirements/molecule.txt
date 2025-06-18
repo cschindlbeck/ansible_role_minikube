@@ -351,7 +351,6 @@ molecule[docker]==4.0.4 \
     --hash=sha256:aab00c1ba62a42d77edd1a51528dfbb46abca70df7c7147fda0925ee4fe7deda
     # via
     #   -r molecule.in
-    #   molecule
     #   molecule-docker
 molecule-docker==2.1.0 \
     --hash=sha256:195b97673cbc2335cfa6810816de5cbf807507bf350a9d16ca98b224b1647145 \
@@ -603,9 +602,9 @@ types-python-dateutil==2.8.19.14 \
     --hash=sha256:1f4f10ac98bb8b16ade9dbee3518d9ace017821d94b057a425b069f834737f4b \
     --hash=sha256:f977b8de27787639986b4e28963263fd0e5158942b3ecef91b9335c130cb1ce9
     # via arrow
-urllib3==1.26.18 \
-    --hash=sha256:34b97092d7e0a3a8cf7cd10e386f401b3737364026c45e622aa02903dffe0f07 \
-    --hash=sha256:f8ecc1bba5667413457c529ab955bf8c67b45db799d159066261719e328580a0
+urllib3==2.5.0 \
+    --hash=sha256:3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760 \
+    --hash=sha256:e6b01673c0fa6a13e374b50871808eb3bf7046c4b125b216f6bf1cc604cff0dc
     # via
     #   -r molecule.in
     #   docker
