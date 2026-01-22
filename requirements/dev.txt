@@ -99,11 +99,10 @@ mdurl==0.1.2
 molecule[docker]==4.0.4
     # via
     #   -r molecule.in
-    #   molecule
     #   molecule-docker
 molecule-docker==2.1.0
     # via molecule
-packaging==23.2
+packaging==26.0
     # via
     #   ansible-compat
     #   ansible-core
@@ -113,6 +112,7 @@ packaging==23.2
     #   pyproject-api
     #   pytest
     #   tox
+    #   wheel
 pathspec==0.11.2
     # via yamllint
 pip-tools==6.13.0
@@ -204,7 +204,7 @@ virtualenv==20.24.6
     # via tox
 websocket-client==1.6.4
     # via docker
-wheel==0.41.3
+wheel==0.46.2
     # via pip-tools
 yamllint==1.26.3
     # via -r lint.in
